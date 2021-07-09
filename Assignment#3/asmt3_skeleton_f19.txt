@@ -1,0 +1,98 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+/* Define structure for instruction containing fields for instruction string, 
+destination register, 2 source registers, and individual instruction delay 
+and a variable as pointer to structure for creating a dynamic array of instructions */
+
+/* global var's */
+
+/*************************************************************/
+void "OPTION #1"()
+{
+/* Declare local variables*/
+
+/* Prompt for total number of instructions */
+
+/* Allocate memory to hold a set of instructions */
+
+/* Initialize instruction 0's destination register to -1 to 
+prevent false RAW dependency w/ instruction 2 */
+
+/* For each instruction, prompt for user input and read instruction as a string 
+and store at proper field of appropriate index within dynamic array of instructions */
+
+return;
+}
+
+/*****************************************************/
+void "OPTION #2"()
+{
+/* Declare local variables */
+
+/* For each instruction i from 2 to total number of instructions, 
+	initialize delay as 0 and check for dependency
+	between instruction (i-2) and i, as well as between instruction (i-1) and i */
+
+	/* If dependency,  set delay appropriately, as well
+	as a flag to check for possible overlap between dependent instructions */
+
+	/* Note: general formula for delay: 
+		delay=2 if instruction i depends on instruction (i-1)
+		delay=1 if instruction i depends on instruction (i-2) 
+		and no overlapping dependency of higher precedent
+		delay=0 otherwise
+	*/
+
+	/* set delay for instruction i based on calculated delay*/
+
+} /* end for-loop */
+
+/* Calculate and print total cycles (include overhead from instruction 1*/
+
+/* Print Instruction string & Gantt chart by tabbing each instruction's cycles 
+based on each instruction's delay */
+
+return;
+}
+
+void "OPTION #3"() 
+{
+/* Declare local variables */
+
+/* For each instruction i from 2 to total number of instructions
+	initialize delay as 0 and check for dependency
+	between instruction (i-2) and i, as well as between instruction (i-1) and i */
+
+	/* If dependency, add NOPs appropriately by shifting remaining instructions down
+	and set delay & flag to check for possible overlap between dependent instructions,
+	and increase total number of instructions appropriately*/
+
+	/* Note: general formula for delay: 
+	delay=2 if instruction i depends on instruction (i-1)
+	delay=1 if instruction i depends on instruction (i-2) and no dependency of higher precedent
+	delay=0 otherwise
+	*/
+	
+} /* end for-loop */
+
+/* Calculate and print total cycles (include overhead from instruction 1*/
+
+/* Print Instruction string & Gantt chart 
+by tabbing each instruction's cycles appropriately
+*/
+
+}
+
+return;
+}
+
+/****************************************************************/
+int main()
+{
+/* declare local var's */
+
+/* until program exits, print menu, select choice via switch statement and call appropriate function*/
+  return 1;
+}

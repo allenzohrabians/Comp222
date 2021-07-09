@@ -1,0 +1,94 @@
+Test case: (1 32768 512 8 2 1 32767 62 2 0 32767 2 1 32766 256 2 0 511 3)
+
+Direct-Mapped Cache Memory: 
+---------------------------
+1) Enter parameters 
+2) Access cache
+3) Quit program
+
+Enter option: 1
+Enter main memory size (words): 32768
+Enter cache size (words): 512
+Enter block size (words/blocks): 8 
+
+Direct-Mapped Cache Memory: 
+---------------------------
+1) Enter parameters 
+2) Access cache
+3) Quit program
+
+Enter option: 2
+Select read (0) or write (1): 1
+Enter main memory address to write to: 32767
+Enter value to write: 62
+
+Access result from address 32767:
+	Write miss!	
+	Tag: 63
+	Block: 63
+	Word: 7
+	Data: 62
+
+
+Direct-Mapped Cache Memory: 
+---------------------------
+1) Enter parameters 
+2) Access cache
+3) Quit program
+
+Enter option: 2
+Select read (0) or write (1): 0
+Enter main memory address to read from: 32767
+
+Access result from address 32767:
+	Read Hit!	
+	Tag: 63
+	Block: 63
+	Word: 7
+	Data: 62
+
+
+Direct-Mapped Cache Memory: 
+---------------------------
+1) Enter parameters 
+2) Access cache
+3) Quit program
+
+Enter option: 2
+Select read (0) or write (1): 1
+Enter main memory address to write to: 32766
+Enter value to write: 256
+
+Access result from address 32766:
+	Write Hit!	
+	Tag: 63
+	Block: 63
+	Word: 6
+	Data: 256
+
+
+Direct-Mapped Cache Memory: 
+---------------------------
+1) Enter parameters 
+2) Access cache
+3) Quit program
+
+Enter option: 2
+Select read (0) or write (1): 0
+Enter main memory address to read from: 511
+
+Access result from address 511:
+	Read miss!
+	Tag: 0
+	Block: 63
+	Word: 7
+	Data: 33279
+
+
+Direct-Mapped Cache Memory: 
+---------------------------
+1) Enter parameters 
+2) Access cache
+3) Quit program
+
+Enter option: 3

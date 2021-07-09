@@ -1,0 +1,59 @@
+#include <stdio.h>
+
+/* declare global var's, including total cycles, total instruction count, and clock cycle rate */
+
+
+/*********************************************************/
+void "OPTION #1"()
+{
+/* declare local var's and initialize*/
+
+/* prompt for # instruction classes & clock cycle rate of machine */
+
+/* for each instruction class, prompt for CPI of class and instruction count */
+/* update values in appropriate glocal var's */
+
+return;
+}
+
+/*********************************************************/
+void "OPTION #2"()
+{
+/* declare local var's */
+
+/* Calculate Average CPI and print result */
+  
+return;
+}
+
+/*********************************************************/
+void "OPTION #3"()
+{
+/* declare local var's */
+
+/* Calculate Execution time and print result */
+
+return;
+}
+
+/*********************************************************/
+void "OPTION #4"()
+{
+/* declare local var's */
+
+/* Calculate MIPS and print result */
+
+return;
+}
+
+
+/*********************************************************/
+int main()
+{
+/* declare local var's */
+
+/* until user chooses to quit, print menu, 
+select choice via switch statement and call appropriate function*/
+
+return 0;
+}
